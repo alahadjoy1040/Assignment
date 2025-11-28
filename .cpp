@@ -1,7 +1,10 @@
 #include <iostream>
 using namespace std;
 int main() {
-    for(char c = 'A'; c <= 'Z'; c++)
-        cout << c << " ";
+    float f;
+    cin >> f;
+    cout << (f - 32) * 5.0 / 9.0;
+    return 0;
 }
+
 
